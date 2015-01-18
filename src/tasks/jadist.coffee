@@ -1,9 +1,9 @@
 ###
  * grunt-jadist
- * https://github.com/devmode/grunt-jadist
- * 
- * Copyright (c) 2014 DevMode, Inc.
- * Licensed under the MIT license.
+ * https://github.com/github/grunt-jadist
+ *
+ * Copyright (c) 2015 Sean M. Duncan
+ * Licensed under the MIT license
 ###
 
 module.exports = (grunt) ->
