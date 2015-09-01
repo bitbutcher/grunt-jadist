@@ -1,8 +1,8 @@
 ###
  * grunt-jadist
- * https://github.com/devmode/grunt-jadist
- * 
- * Copyright (c) 2014 DevMode, Inc.
+ * https://github.com/bitbutcher/grunt-jadist
+ *
+ * Copyright (c) 2015 Sean M. Duncan
  * Licensed under the MIT license.
 ###
 
@@ -15,7 +15,7 @@ module.exports = (grunt) ->
   grunt.initConfig
     pkg: grunt.file.readJSON 'package.json'
     clean:
-      dist: [ 'dist' ] 
+      dist: [ 'dist' ]
     copy:
       dist:
         files: [
